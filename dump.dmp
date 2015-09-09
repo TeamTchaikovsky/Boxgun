@@ -50,13 +50,13 @@ Adding node rotation at time 0.000000 for node "joint1".
   rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
 ---------------------------------
 Adding node translation at time 0.000000 for node "joint1".
-  translation:     x=0.00000, y=3.00000, z=0.00000
+  translation:     x=0.00000, y=2.00000, z=0.00000
 ---------------------------------
 Adding node rotation at time 0.000000 for node "joint2".
   rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
 ---------------------------------
 Adding node translation at time 0.000000 for node "joint2".
-  translation:     x=0.00000, y=-1.00000, z=0.00000
+  translation:     x=0.00000, y=-2.00000, z=0.00000
 ---------------------------------
 Adding node rotation at time 0.000000 for node "Root".
   rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000

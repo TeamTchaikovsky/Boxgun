@@ -218,7 +218,7 @@ AddDamageType("NameOfYourGun",   '<bitmap:add-ons/Weapon_NameOfYourGun/CI_NameOf
 datablock ProjectileData(NameOfYourGunProjectile)
 {
    projectileShapeName = "./bullet.dts";
-   directDamage        = 30;
+   directDamage        = 7000;
    directDamageType    = $DamageType::NameOfYourGun;
    radiusDamageType    = $DamageType::NameOfYourGun;
 
@@ -233,7 +233,7 @@ datablock ProjectileData(NameOfYourGunProjectile)
    explosion           = NameOfYourGunExplosion;
    particleEmitter     = ""; //bulletTrailEmitter;
 
-   muzzleVelocity      = 90;
+   muzzleVelocity      = 50;
    velInheritFactor    = 1;
 
    armingDelay         = 00;
@@ -242,7 +242,7 @@ datablock ProjectileData(NameOfYourGunProjectile)
    bounceElasticity    = 0.5;
    bounceFriction      = 0.20;
    isBallistic         = false;
-   gravityMod = 0.0;
+   gravityMod = 0.1;
 
    hasLight    = false;
    lightRadius = 3.0;
