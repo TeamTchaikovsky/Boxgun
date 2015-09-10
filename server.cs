@@ -48,8 +48,8 @@ datablock ParticleData(NameOfYourGunFlashParticle)
 	spinRandomMax		= 500.0;
 	colors[0]     = "0.9 0.9 0.0 0.9";
 	colors[1]     = "0.9 0.5 0.0 0.0";
-	sizes[0]      = 0.5;
-	sizes[1]      = 1.0;
+	sizes[0]      = 1.5;
+	sizes[1]      = 2.0;
 
 	useInvAlpha = false;
 };
@@ -67,7 +67,7 @@ datablock ParticleEmitterData(NameOfYourGunFlashEmitter)
    overrideAdvance = false;
    particles = "NameOfYourGunFlashParticle";
 
-   uiName = "NameOfYourGun Flash";
+   uiName = "MK.IV Block Cannon Flash";
 };
 
 datablock ParticleData(NameOfYourGunSmokeParticle)
@@ -103,7 +103,7 @@ datablock ParticleEmitterData(NameOfYourGunSmokeEmitter)
    overrideAdvance = false;
    particles = "NameOfYourGunSmokeParticle";
 
-   uiName = "NameOfYourGun Smoke";
+   uiName = "MK.IV Block Cannon Smoke";
 };
 
 
@@ -141,7 +141,7 @@ datablock ParticleEmitterData(NameOfYourGunExplosionEmitter)
    particles = "NameOfYourGunExplosionParticle";
 
    useEmitterColors = true;
-   uiName = "NameOfYourGun Hit Dust";
+   uiName = "MK.IV Block Cannon Hit Dust";
 };
 
 
@@ -181,7 +181,7 @@ datablock ParticleEmitterData(NameOfYourGunExplosionRingEmitter)
    particles = "NameOfYourGunExplosionRingParticle";
 
    useEmitterColors = true;
-   uiName = "NameOfYourGun Hit Flash";
+   uiName = "MK.IV Block Cannon Hit Flash";
 };
 
 datablock ExplosionData(NameOfYourGunExplosion)
@@ -200,7 +200,7 @@ datablock ExplosionData(NameOfYourGunExplosion)
    faceViewer     = true;
    explosionScale = "1 1 1";
 
-   shakeCamera = false;
+   shakeCamera = true;
    camShakeFreq = "10.0 11.0 10.0";
    camShakeAmp = "1.0 1.0 1.0";
    camShakeDuration = 0.5;
@@ -218,7 +218,7 @@ AddDamageType("NameOfYourGun",   '<bitmap:add-ons/Weapon_NameOfYourGun/CI_NameOf
 datablock ProjectileData(NameOfYourGunProjectile)
 {
    projectileShapeName = "./bullet.dts";
-   directDamage        = 7000;
+   directDamage        = 30;
    directDamageType    = $DamageType::NameOfYourGun;
    radiusDamageType    = $DamageType::NameOfYourGun;
 
@@ -269,7 +269,7 @@ datablock ItemData(gun)
 	emap = true;
 
 	//gui stuff
-	uiName = "NameOfYourGun";
+	uiName = "MK.IV Block Cannon";
 	iconName = "./icon_NameOfYourGun";
 	doColorShift = true;
 	colorShiftColor = "0.25 0.25 0.25 1.000";
